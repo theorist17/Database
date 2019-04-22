@@ -110,8 +110,6 @@ select *
 from (select sno, midter from enrol) X;
 
 
-
-
 # CARTESIAN PRODUCT
 select * 
 from student, enrol; # no meaningful information 
